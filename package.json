@@ -1,0 +1,49 @@
+{
+  "name": "sleep-mode",
+  "version": "0.0.0",
+  "description": "Puts your device on sleep mode.",
+  "license": "MIT",
+  "repository": "hemanth/sleep-mode",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "sleep",
+    "sleep-mode",
+    "windows",
+    "osx",
+    "linux",
+    "gnu"
+  ],
+  "dependencies": {
+    "is-linux": "^1.0.1",
+    "is-osx": "^1.0.2",
+    "is-windows": "^0.1.0",
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ]
+  }
+}
