@@ -12,7 +12,7 @@ module.exports = function (cb) {
 		cmd = 'pmset sleepnow';
 	} else if (isLinux()) {
 		// should work on all OSs using systemd.
-		cmd = 'systemctl suspend';
+		cmd = 'sudo pm-suspend';
 	} else if (isWindows()) {
 		cmd = 'rundll32.exe powrprof.dll,SetSuspendState 0,1,0';
 	} else {
