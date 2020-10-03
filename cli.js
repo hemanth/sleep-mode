@@ -6,4 +6,7 @@ sleepMode(function (err, stderr, stdout) {
 	if (!err && !stderr) {
 		console.log(stdout);
 	}
+	else if(err){
+		console.log(err)
+	}
 });
