@@ -34,7 +34,7 @@
     "is-linux": "^1.0.1",
     "is-osx": "^1.0.2",
     "is-windows": "^0.1.0",
-    "meow": "^3.3.0"
+    "meow": "^8.0.0"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
